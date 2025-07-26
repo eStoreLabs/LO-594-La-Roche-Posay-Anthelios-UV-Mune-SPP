@@ -380,13 +380,25 @@ $media-breakpoint-research: 775px;
         vertical-align: 120%;
       }
     }
+    @media (min-width: $media-breakpoint-sm) {
+      &__left {
+        flex-direction: row;
+        flex-wrap: wrap;
+        &--item {
+          flex: 1 1 0;
+          flex-basis: 48%;
+        }
+      }
+    }
     @media (min-width: $media-breakpoint-md) {
       background-position: 73%;
+      background-size: cover;
+      background-repeat: no-repeat;
       min-height: 380px;
       display: flex;
       align-items: center;
       &__left {
-        max-width: 50%;
+        max-width: 66%;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: center;
@@ -394,12 +406,6 @@ $media-breakpoint-research: 775px;
         &--number {
           font-size: $fs-percent-lg;
         }
-      }
-    }
-    @media (min-width: $media-breakpoint-lg) {
-      &__left {
-        max-width: 54%;
-        gap: 24px;
       }
     }
   }
