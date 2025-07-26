@@ -218,7 +218,7 @@
   background-size: 250px;
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-bottom: 260px;
+  padding-bottom: 370px;
 }
 #es-rc #es-rc-content .es-ingredients__list {
   display: flex;
@@ -263,7 +263,7 @@
   }
 }
 @media (min-width: 900px) {
-  #es-rc #es-rc-content .es-ingredients .es-title-small {
+  #es-rc #es-rc-content .es-ingredients .es-section-title {
     margin-top: 80px;
     margin-bottom: 60px;
   }
@@ -283,6 +283,9 @@
     justify-content: unset;
     align-items: unset;
     text-align: left;
+  }
+  #es-rc #es-rc-content .es-ingredients__single:nth-of-type(3n) {
+    width: 67%;
   }
   #es-rc #es-rc-content .es-ingredients__single--text--title {
     margin-bottom: 5px;
