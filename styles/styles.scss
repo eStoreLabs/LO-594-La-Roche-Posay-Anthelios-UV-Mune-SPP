@@ -23,8 +23,9 @@ $px-XXL: 50px;
 
 $color-main: #0d1116;
 $color-bg: #f4f4f4;
-$color-accent: #058ac5;
-$color-accent-2: #058ac5;
+$color-accent: #080d1f;
+$color-accent-2: #f07d00;
+$color-accent-cross: #003e93;
 $color-white: #fff;
 $color-black: #000;
 $color-table-bg: #f2f2f2;
@@ -87,8 +88,12 @@ $media-breakpoint-research: 775px;
   }
 
   .es-blue-text {
-    color: $color-accent-2;
+    color: $color-accent-cross;
     text-transform: uppercase;
+  }
+
+  .es-orange-text {
+    color: $color-accent-2;
   }
 
   .es-small-text {
@@ -144,49 +149,21 @@ $media-breakpoint-research: 775px;
   }
 
   .es-kv {
-    &__left {
+    &__right {
       color: $color-white;
       text-align: center;
       padding: $px-XL;
       text-wrap: balance;
       word-break: auto;
-      &--headline {
-        text-transform: uppercase;
-        font-size: 24px;
-      }
-      &--name {
-        font-size: $fs-header-lg;
-        font-weight: $fw-extrabold;
-        text-transform: uppercase;
-        margin-top: $px-S;
-        margin-bottom: $px-M;
-      }
-      &--desc {
-        font-size: 24px;
-      }
     }
     @media (min-width: $media-breakpoint-md) {
       background-position: 73%;
       min-height: 380px;
       display: flex;
       align-items: center;
-      &__left {
+      &__right {
         max-width: 65%;
         text-align: left;
-        &--headline {
-          font-size: 26px;
-        }
-        &--name {
-          font-size: 48px;
-        }
-        &--desc {
-          font-size: 26px;
-        }
-      }
-    }
-    @media (min-width: $media-breakpoint-lg) {
-      &__left {
-        padding-inline: calc(1.4 * $px-XXL);
       }
     }
   }
@@ -451,7 +428,7 @@ $media-breakpoint-research: 775px;
       &--text--border {
         width: 18px;
         height: 51px;
-        background-color: $color-accent-2;
+        background-color: $color-accent-cross;
       }
     }
 
@@ -468,7 +445,7 @@ $media-breakpoint-research: 775px;
     .es-crosss__single--text--border {
       width: 18px;
       height: 51px;
-      background-color: $color-accent-2;
+      background-color: $color-accent;
     }
     @media (min-width: $media-breakpoint-lg) {
       display: none;

@@ -40,8 +40,11 @@
   font-size: 38px;
 }
 #es-rc #es-rc-content .es-blue-text {
-  color: #058ac5;
+  color: #003e93;
   text-transform: uppercase;
+}
+#es-rc #es-rc-content .es-orange-text {
+  color: #f07d00;
 }
 #es-rc #es-rc-content .es-small-text {
   font-size: 25px;
@@ -86,26 +89,12 @@
     padding: 0;
   }
 }
-#es-rc #es-rc-content .es-kv__left {
+#es-rc #es-rc-content .es-kv__right {
   color: #fff;
   text-align: center;
   padding: 35px;
   text-wrap: balance;
   word-break: auto;
-}
-#es-rc #es-rc-content .es-kv__left--headline {
-  text-transform: uppercase;
-  font-size: 24px;
-}
-#es-rc #es-rc-content .es-kv__left--name {
-  font-size: 40px;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin-top: 8px;
-  margin-bottom: 15px;
-}
-#es-rc #es-rc-content .es-kv__left--desc {
-  font-size: 24px;
 }
 @media (min-width: 768px) {
   #es-rc #es-rc-content .es-kv {
@@ -114,23 +103,9 @@
     display: flex;
     align-items: center;
   }
-  #es-rc #es-rc-content .es-kv__left {
+  #es-rc #es-rc-content .es-kv__right {
     max-width: 65%;
     text-align: left;
-  }
-  #es-rc #es-rc-content .es-kv__left--headline {
-    font-size: 26px;
-  }
-  #es-rc #es-rc-content .es-kv__left--name {
-    font-size: 48px;
-  }
-  #es-rc #es-rc-content .es-kv__left--desc {
-    font-size: 26px;
-  }
-}
-@media (min-width: 900px) {
-  #es-rc #es-rc-content .es-kv__left {
-    padding-inline: 70px;
   }
 }
 #es-rc #es-rc-content .es-benefits {
@@ -382,7 +357,7 @@
 #es-rc #es-rc-content .es-cross__single--text--border {
   width: 18px;
   height: 51px;
-  background-color: #058ac5;
+  background-color: #003e93;
 }
 @media (min-width: 900px) {
   #es-rc #es-rc-content .es-cross {
@@ -396,7 +371,7 @@
 #es-rc #es-rc-content .es-cross-mobile .es-crosss__single--text--border {
   width: 18px;
   height: 51px;
-  background-color: #058ac5;
+  background-color: #080d1f;
 }
 @media (min-width: 900px) {
   #es-rc #es-rc-content .es-cross-mobile {
@@ -417,7 +392,7 @@
   opacity: 0.1;
 }
 #es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-active {
-  background: #058ac5;
+  background: #080d1f;
   opacity: 1;
 }
 #es-rc #es-rc-content .es-swiper1 .swiper-button-prev.es-swiper1-button-prev,
@@ -435,7 +410,7 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-button-next.es-swiper1-button-next::after {
   font-size: 22px;
   font-weight: 900;
-  color: #058ac5;
+  color: #080d1f;
 }
 #es-rc #es-rc-content .es-video {
   margin: 50px 0;
@@ -457,7 +432,7 @@
 }
 #es-rc #es-rc-content .es-products__single {
   display: flex;
-  background-color: #058ac5;
+  background-color: #080d1f;
   justify-content: space-between;
   align-items: flex-end;
   padding: 25px 20px;
@@ -537,7 +512,7 @@
 #es-rc #es-rc-content .es-table__title {
   font-weight: 900;
   font-size: 25px;
-  color: #058ac5;
+  color: #080d1f;
   text-align: center;
   text-transform: uppercase;
   margin: 25px 0;
@@ -607,7 +582,7 @@
   opacity: 0.1;
 }
 #es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-active {
-  background: #058ac5;
+  background: #080d1f;
   opacity: 1;
 }
 #es-rc #es-rc-content .es-swiper2 .swiper-button-prev.es-swiper2-button-prev,
@@ -625,7 +600,7 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-button-next.es-swiper2-button-next::after {
   font-size: 22px;
   font-weight: 900;
-  color: #058ac5;
+  color: #080d1f;
 }
 @media (min-width: 768px) {
   #es-rc #es-rc-content .es-table {
@@ -713,7 +688,7 @@
   color: #fff;
   transition: all 200ms ease-out;
   cursor: pointer;
-  background: #058ac5;
+  background: #080d1f;
   z-index: 1;
   position: relative;
 }
