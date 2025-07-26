@@ -412,7 +412,7 @@ $media-breakpoint-research: 775px;
 
   .es-cross {
     display: none;
-    .es-title-small {
+    .es-section-title {
       margin-top: 60px;
       margin-bottom: 60px;
     }
@@ -448,8 +448,7 @@ $media-breakpoint-research: 775px;
         }
       }
       &:nth-child(2),
-      &:nth-child(4),
-      &:nth-child(5) {
+      &:nth-child(3) {
         .es-cross__single--img img {
           max-height: 230px;
         }
@@ -462,6 +461,7 @@ $media-breakpoint-research: 775px;
       &--text {
         padding-left: 5px;
         font-size: 14px;
+        width: 100%;
         @media (min-width: $media-breakpoint-lg) {
           font-size: 12px;
         }
@@ -480,7 +480,7 @@ $media-breakpoint-research: 775px;
       }
       &--text--border {
         width: 18px;
-        height: 51px;
+        height: 44px;
         background-color: $color-accent-cross;
       }
     }
