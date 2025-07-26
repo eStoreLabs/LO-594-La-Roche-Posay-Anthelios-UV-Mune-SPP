@@ -10,6 +10,7 @@ $fs-base: 16px;
 $fs-header: 30px;
 $fs-header-lg: 40px;
 $fs-title: 25px;
+$fs-title-lg: 30px;
 
 $fs-small: 12px;
 $fs-percent: 50px;
@@ -73,6 +74,24 @@ $media-breakpoint-research: 775px;
 
   .es-uppercase {
     text-transform: uppercase;
+  }
+
+  .es-section-title {
+    font-size: $fs-header;
+    font-weight: $fw-black;
+    text-transform: uppercase;
+    text-align: center;
+    span {
+      display: block;
+      font-weight: $fw-regular;
+      font-size: $fs-title;
+    }
+    @media (min-width: $media-breakpoint-md) {
+      font-size: $fs-header-lg;
+      span {
+        font-size: $fs-title-lg;
+      }
+    }
   }
 
   .es-title-small {
@@ -183,7 +202,6 @@ $media-breakpoint-research: 775px;
       }
     }
     @media (min-width: $media-breakpoint-md) {
-
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -203,14 +221,8 @@ $media-breakpoint-research: 775px;
   .es-benefits {
     text-align: center;
     &__title {
-      text-transform: uppercase;
-      font-size: $fs-header;
-      font-weight: $fw-black;
       margin-top: 35px;
       margin-bottom: 15px;
-      &--span {
-        font-weight: $fw-regular;
-      }
     }
     &__list {
       display: flex;
@@ -259,7 +271,7 @@ $media-breakpoint-research: 775px;
   }
 
   .es-ingredients {
-    .es-title-small {
+    .es-section-title {
       margin-top: 30px;
       margin-bottom: 10px;
     }
