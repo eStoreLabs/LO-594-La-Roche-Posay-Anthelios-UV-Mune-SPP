@@ -222,6 +222,7 @@
 }
 #es-rc #es-rc-content .es-ingredients__list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -230,7 +231,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  width: 48%;
   padding-top: 30px;
   text-align: center;
   padding-left: 10px;
@@ -260,6 +260,14 @@
   #es-rc #es-rc-content .es-ingredients__container {
     background-repeat: no-repeat;
     background-position: bottom;
+  }
+}
+@media (min-width: 768px) {
+  #es-rc #es-rc-content .es-ingredients__list {
+    flex-direction: row;
+  }
+  #es-rc #es-rc-content .es-ingredients__single {
+    width: 48%;
   }
 }
 @media (min-width: 900px) {
