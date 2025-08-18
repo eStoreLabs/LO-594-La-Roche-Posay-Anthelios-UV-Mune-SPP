@@ -1,5 +1,5 @@
 #es-rc #es-rc-content {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
@@ -8,6 +8,7 @@
   padding: 0;
   overflow: hidden;
   background: #fff;
+  color: #000000;
 }
 #es-rc #es-rc-content * {
   box-sizing: border-box;
@@ -113,6 +114,9 @@
   #es-rc #es-rc-content .es-logos__2 img {
     max-height: 60px;
     padding: 0;
+  }
+  #es-rc #es-rc-content .es-small-text {
+    font-size: 17px;
   }
 }
 #es-rc #es-rc-content .es-kv {
@@ -284,6 +288,7 @@
   text-transform: uppercase;
   margin-left: 10px;
   margin-top: 5px;
+  color: #000000;
 }
 #es-rc #es-rc-content .es-ingredients__single--text--title {
   font-weight: 900;
@@ -457,7 +462,12 @@
   color: #000;
   background-color: #fff;
 }
-#es-rc #es-rc-content .es-cross__single:nth-child(2) .es-cross__single--img img, #es-rc #es-rc-content .es-cross__single:nth-child(3) .es-cross__single--img img {
+#es-rc #es-rc-content .es-cross__single:nth-child(2) .es-cross__single--img img,
+#es-rc
+  #es-rc-content
+  .es-cross__single:nth-child(3)
+  .es-cross__single--img
+  img {
   max-height: 230px;
 }
 #es-rc #es-rc-content .es-cross__single--text--wrapper {
@@ -524,7 +534,7 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-active {
+#es-rc #es-rc-content .es-swiper1 .swiper-pagination-bullet-es-active {
   background: #080d1f;
   opacity: 1;
 }
@@ -539,8 +549,14 @@
 #es-rc #es-rc-content .es-swiper1 .swiper-button-next.es-swiper1-button-next {
   right: 36px;
 }
-#es-rc #es-rc-content .es-swiper1 .swiper-button-prev.es-swiper1-button-prev::after,
-#es-rc #es-rc-content .es-swiper1 .swiper-button-next.es-swiper1-button-next::after {
+#es-rc
+  #es-rc-content
+  .es-swiper1
+  .swiper-button-prev.es-swiper1-button-prev::after,
+#es-rc
+  #es-rc-content
+  .es-swiper1
+  .swiper-button-next.es-swiper1-button-next::after {
   font-size: 22px;
   font-weight: 900;
   color: #080d1f;
@@ -621,12 +637,12 @@
     font-size: 28px;
   }
 }
-@media (min-width: 1200px) and (max-width: 1200px) {
+@media (min-width: 1200px) {
   #es-rc #es-rc-content .es-products__single {
-    height: 350px;
+    height: 330px;
   }
   #es-rc #es-rc-content .es-products__single--img {
-    margin-left: 5%;
+    margin-left: 0%;
   }
   #es-rc #es-rc-content .es-products__single--img img {
     max-height: 200px;
@@ -636,12 +652,12 @@
   }
   #es-rc #es-rc-content .es-products__single--text .es-white-text,
   #es-rc #es-rc-content .es-products__single--text .es-orange-text {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 @media (min-width: 1200px) {
   #es-rc #es-rc-content .es-products__single--img img {
-    max-height: 260px;
+    max-height: 245px;
   }
 }
 @media (max-width: 320px) {
@@ -730,11 +746,17 @@
 #es-rc #es-rc-content .es-swiper2 .es-products-mobile .es-products__single {
   height: 420px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next#es-swiper2-button-next__top {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next#es-swiper2-button-next__top {
   top: 4%;
   right: 10px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next#es-swiper2-button-next__top::after {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next#es-swiper2-button-next__top::after {
   font-size: 22px;
   font-weight: 900;
   color: #fff;
@@ -746,7 +768,7 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet {
   opacity: 0.1;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-active {
+#es-rc #es-rc-content .es-swiper2 .swiper-pagination-bullet-es-active {
   background: #080d1f;
   opacity: 1;
 }
@@ -761,8 +783,14 @@
 #es-rc #es-rc-content .es-swiper2 .swiper-button-next.es-swiper2-button-next {
   right: 86px;
 }
-#es-rc #es-rc-content .es-swiper2 .swiper-button-prev.es-swiper2-button-prev::after,
-#es-rc #es-rc-content .es-swiper2 .swiper-button-next.es-swiper2-button-next::after {
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-prev.es-swiper2-button-prev::after,
+#es-rc
+  #es-rc-content
+  .es-swiper2
+  .swiper-button-next.es-swiper2-button-next::after {
   font-size: 22px;
   font-weight: 900;
   color: #080d1f;
@@ -875,7 +903,7 @@
   margin: auto 0;
   transition: all 0.3s ease-out;
 }
-#es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+#es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
   transform: rotate(180deg);
 }
 @media (min-width: 1200px) {
@@ -884,7 +912,7 @@
     bottom: unset;
     transform: translateY(-50%);
   }
-  #es-rc #es-rc-content .es-qa .es-accordion .active .es-accordion__arrow {
+  #es-rc #es-rc-content .es-qa .es-accordion .es-active .es-accordion__arrow {
     transform: translateY(-50%) rotate(180deg);
   }
 }
@@ -918,4 +946,4 @@
   #es-rc #es-rc-content {
     max-width: 731px;
   }
-}/*# sourceMappingURL=styles.css.map */
+} /*# sourceMappingURL=styles.css.map */
